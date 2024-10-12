@@ -216,3 +216,14 @@ img {
     text-decoration: underline;
     cursor: pointer;
 }
+
+
+
+/*footer*/
+
+.footer {
+    background-color: #e6e7e6cb;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1rem;
+}
