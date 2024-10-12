@@ -17,15 +17,26 @@ body{
     margin: auto;
   }
   
+
+
 .navbar {
     box-shadow: 37px -42px 10px 37px #aaa;
-    position: fixed;
+    position: relative;
     width: 100%;
     background: #fff;
     height: 70px;
     display: flex;
+    justify-content: center;
     align-items: center;
     z-index: 12;
+}
+
+
+
+img {
+  padding: 15px;
+  width: 200px; 
+  height: auto; 
 }
   
 .navbar-container {
@@ -56,8 +67,3 @@ body{
     color: green;
   }
   
-.header_logo {
-    order: 1;
-    font-size: 2.3rem;
-    margin-bottom: 0.5rem;
-}
