@@ -124,7 +124,36 @@ img {
     text-align: center;
 }
 
+/* sesión  why-better*/
 
-  
+.why-better {
+    text-align: center;
+}
 
+.why-better_title {
+    color: #5f7062; 
+    margin-bottom: 2rem;
+}
 
+.why-better_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.why-better_item {
+    flex-basis: calc(33.333% - 2rem);
+    min-width: 250px;
+    max-width: 400px;
+}
+
+.why-better_item p {
+    text-align: center;
+}
+
+.highlight {
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
